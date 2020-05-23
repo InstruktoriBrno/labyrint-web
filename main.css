@@ -1,0 +1,162 @@
+/************************************
+*     objekty
+*/
+
+#maindiv{
+    width:800px;
+    height:1000px;
+    background: url('img/bgr2.jpg') no-repeat;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    padding-left:65px;
+    text-align:left;
+}
+
+#topsep{
+    width:735px;
+    height:48px;
+}
+
+#menusep{
+    width:735px;
+    height:55px;
+}
+
+#captbar{
+    margin-right:200px;
+    text-align: right;
+    width:535px;
+    height:30px;
+}
+
+#menubar{
+    width:735px;
+    height:20px;
+    text-align:right;
+
+}
+
+#menubar a{
+        text-decoration:none;
+        font-weight: bold;
+        color: black;
+}
+
+#menubar a:hover{
+        text-decoration:underline;
+        color: darkred;
+}
+
+
+#content{
+    width:535px;
+    height:430px;
+    margin-left: 0px;
+    margin-top: 22px;
+    float:left;
+    overflow: auto;
+}
+
+#menu{
+    width:140px;
+    height:220px;
+    float:left;
+    padding-left:40px;
+    margin-left:0px;
+    margin-top:-30px;
+}
+
+#menulinks{
+    height:320px;
+}
+#logos{
+    margin-left:-15px;
+    width:148px;
+    text-align:center;
+}
+
+#videowin{
+    text-align: center;
+}
+
+#fototable{
+    width: 515px;
+    height: 395px;
+    cellspacing: 2px;
+}
+
+#tymtable{
+    width: 515px;
+    height: 395px;
+    cellspacing: 2px;
+}
+
+#pritable{
+    width: 515px;
+    cellspacing: 2px;
+}
+
+/************************************
+*  tridy
+*/
+.logo{
+    border: 0px;
+    text-align:center;
+}
+
+.capt{
+
+        font-weight: bold;
+}
+
+.menulabel{
+        color: #555;
+
+}
+
+.message{
+    color: darkred;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/************************************
+*  obecne
+*/
+
+a{
+        text-decoration:underline; 
+        color: black;
+}
+
+a:hover{
+        text-decoration:underline;
+        color: darkred;
+}
+
+
+div {
+    font-face: Verdana,Tahoma, Arial;
+    
+}
+
+body{
+    background: url('img/bg.jpg');
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+img{
+    border: 1px solid black;
+}
+
+input {
+    border: 1px solid black;
+    width: 250px;
+}
+
+textarea{
+    border: 1px solid black;
+    width: 250px;
+}
